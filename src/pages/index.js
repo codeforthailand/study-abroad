@@ -7,8 +7,12 @@ import SEO from "../components/seo"
 import { useStaticQuery, graphql } from "gatsby"
 import moment from "moment"
 
+const headerStyle = {
+  paddingBottom: "0.3em", 
+  borderBottom: "1px solid"
+}
+
 const ScholarshipRow = ({data}) => {
-  console.log(data)
   return <div style={{marginTop: "1.5em", marginBottom: "2em"}}>
     <h4 style={{padding: 0, margin: 0}}>
       <a style={{color: "black"}} href={data.url}>
@@ -72,12 +76,25 @@ const IndexPage = () => {
     const deadline = moment(s.node.deadline, "DD/MM/YYYY")
     return {
       ...s.node,
+      deadlineMoment: deadline,
       isAvailable: deadline > today 
     }
   })
 
   const availableScholarships = scholarships.filter(s => s.isAvailable)
+  availableScholarships.sort( (a, b) => a.deadlineMoment - b.deadlineMoment)
+
   const notAvailableScholarships = scholarships.filter(s => !s.isAvailable)
+
+  notAvailableScholarships.sort((aa, bb) => {
+    const a = aa.name
+    const b = bb.name
+
+    if( a < b ) { return -1 }
+    else if (a > b) { return 1 }
+    else { return 0 }
+  } )
+
 
   return <Layout>
     <SEO title="Home" />
@@ -86,13 +103,13 @@ const IndexPage = () => {
       <select><option>ปริญญาเอก</option></select>
     </div>
     <div>
-      <h4>ทุนที่เปิดรับสมัครในขณะนี้ ({availableScholarships.length} ทุน)</h4>
+      <h3 style={headerStyle}>ทุนที่เปิดรับสมัครในขณะนี้ ({availableScholarships.length} ทุน)</h3>
       <div>
         { 
           availableScholarships.map(r => <ScholarshipRow key={r.name} data={r}/>)
         }
       </div>
-      <h4 style={{padding: "0", margin: "0"}}>ทุนอื่นๆ ({notAvailableScholarships.length} ทุน) </h4>
+      <h3 style={headerStyle}>ทุนอื่นๆ ({notAvailableScholarships.length} ทุน) </h3>
       <div>
         { 
           notAvailableScholarships.map(r => <ScholarshipRow key={r.name} data={r}/>)
