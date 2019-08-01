@@ -98,9 +98,14 @@ const IndexPage = () => {
 
   return <Layout>
     <SEO title="Home" />
-    <div style={{fontWeight: "bold", marginBottom: "2em"}}>
+    <div style={{marginBottom: "2em"}}>
       <b>ทุนในระดับ</b>
       <select><option>ปริญญาเอก</option></select>
+      <br/>
+      <i>หมายเหตุ:
+      ข้อมูลด้านล่างเกิดจากการรวบรวมของอาสาสมัคร ในกรณีที่มีข้อบกพร่อง หรือข้อเสนอแนะ สามารถแจ้งได้ที่
+      {` `}<a style={{color: "black"}} href="https://github.com/codeforthailand/study-abroad">Github</a>
+      </i>
     </div>
     <div>
       <h3 style={headerStyle}>ทุนที่เปิดรับสมัครในขณะนี้ ({availableScholarships.length} ทุน)</h3>
