@@ -17,5 +17,6 @@ before_script:
   - "npm i"
 script:
   - "npm run test"
+  - "npm run build"
 after_success:
   - "npm run deploy"
