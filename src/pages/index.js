@@ -17,9 +17,9 @@ const headerStyle = {
 
 const getQueryFromLocation = () => {
   if(typeof(window) === "undefined"){
-    return "mockQueryParam"
+    return "?thisisdummy=1"
   } else{
-    return window.location.search
+    return ""
   }
 }
 
@@ -69,6 +69,8 @@ const IndexPage = () => {
     StringParam,
     getQueryFromLocation()
   )
+
+  console.log(queryType)
 
   const [type, setType] = useState(queryType)
 
