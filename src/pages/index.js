@@ -115,7 +115,7 @@ const IndexPage = () => {
   })
 
 
-  const selectedScholarships = scholarships.filter(s => s.type == type)
+  const selectedScholarships = scholarships.filter(s => s.type === type)
 
   const availableScholarships = selectedScholarships.filter(s => s.isAvailable)
   availableScholarships.sort( (a, b) => a.deadlineMoment - b.deadlineMoment)
