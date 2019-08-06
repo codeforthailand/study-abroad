@@ -9,7 +9,8 @@ https://docs.google.com/spreadsheets/d/1HT9rrr5iVAkfLSzbZlph7n4D64x5RlJjv_GVrW4x
 
 
 ## Acknowledgements
-- Thank you to @c4n for providing the list of internships.
+- Thank you to [@c4n][can] for providing the list of internships.
 - The structure of this project is based on [Gatsby][gatsby].
 
 [gatsby]: https://www.gatsbyjs.org
+[can]: https://github.com/c4n
