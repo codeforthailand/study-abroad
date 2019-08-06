@@ -16,10 +16,10 @@ const headerStyle = {
 }
 
 const getQueryFromLocation = () => {
-  if(typeof(window) === "undefined"){
-    return "?thisisdummy=1"
-  } else{
-    return ""
+  if(typeof window !== 'undefined' && window) {
+    return "" // useQueryParam will parse query params automatically
+  } else {
+    return "?dummy-param"
   }
 }
 
@@ -70,9 +70,7 @@ const IndexPage = () => {
     getQueryFromLocation()
   )
 
-  console.log(queryType)
-
-  const [type, setType] = useState(queryType)
+  const [type, setType] = useState()
 
   const setTypeValue = (v) => {
     setQueryType(v)
@@ -80,9 +78,7 @@ const IndexPage = () => {
   }
 
   useEffect(() => {
-    if(!type) {
-      setTypeValue(config.types[0].value)
-    }
+    setType(queryType || config.types[0].value)
   }, [])
 
   const today = moment()
