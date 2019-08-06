@@ -1,11 +1,14 @@
-import React from "react"
-import { Link } from "gatsby"
+import React, { useState, useEffect } from "react"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
 import { useStaticQuery, graphql } from "gatsby"
 import moment from "moment"
+
+import { useQueryParam, StringParam } from 'use-query-params'
+
+
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import config from "../config"
 
 const headerStyle = {
   paddingBottom: "0.3em", 
@@ -33,14 +36,15 @@ const ScholarshipRow = ({data}) => {
         data.topics
           .split(",")
           .map(t => { 
+            const tag = t.trim()
             return <span style={{
               border: "1px solid",
               background: "green", 
               color: "white",
-              padding: "3px",
+              padding: "3px 5px",
               borderRadius: "5px"
-            }} key={t}>
-              {t}
+            }} key={tag}>
+              {tag}
             </span>
           })
       }
@@ -52,12 +56,28 @@ const ScholarshipRow = ({data}) => {
 }
 
 const IndexPage = () => {
-  const db = useStaticQuery( graphql`
+  const [queryType, setQueryType] = useQueryParam("type", StringParam);
+  const [type, setType] = useState(queryType)
+
+  const setTypeValue = (v) => {
+    setQueryType(v)
+    setType(v)
+  }
+
+  useEffect(() => {
+    if(!type) {
+      setTypeValue(config.types[0].value)
+    }
+  }, [])
+
+  const today = moment()
+  const db = useStaticQuery(graphql`
     query {
         allScholarshipsCsv {
           edges {
             node {
               name
+              type
               url
               location
               topics
@@ -70,21 +90,22 @@ const IndexPage = () => {
     `
   )
 
-  const today = moment()
-
   const scholarships = db.allScholarshipsCsv.edges.map( s => {
-    const deadline = moment(s.node.deadline, "DD/MM/YYYY")
-    return {
-      ...s.node,
-      deadlineMoment: deadline,
-      isAvailable: deadline > today 
-    }
+      const deadline = moment(s.node.deadline, "DD/MM/YYYY")
+      return {
+        ...s.node,
+        deadlineMoment: deadline,
+        isAvailable: deadline > today 
+      }
   })
 
-  const availableScholarships = scholarships.filter(s => s.isAvailable)
+
+  const selectedScholarships = scholarships.filter(s => s.type == type)
+
+  const availableScholarships = selectedScholarships.filter(s => s.isAvailable)
   availableScholarships.sort( (a, b) => a.deadlineMoment - b.deadlineMoment)
 
-  const notAvailableScholarships = scholarships.filter(s => !s.isAvailable)
+  const notAvailableScholarships = selectedScholarships.filter(s => !s.isAvailable)
 
   notAvailableScholarships.sort((aa, bb) => {
     const a = aa.name
@@ -100,7 +121,13 @@ const IndexPage = () => {
     <SEO title="Home" />
     <div style={{marginBottom: "2em"}}>
       <b>ทุนในระดับ</b>
-      <select><option>ปริญญาเอก</option></select>
+      <select defaultValue={type} onChange={(e) => setTypeValue(e.target.value)}>
+        {
+          config.types.map(t => {
+            return <option key={t.value} value={t.value}>{t.name}</option>
+          })
+        }
+      </select>
       <br/>
       <i>หมายเหตุ:
       ข้อมูลด้านล่างเกิดจากการรวบรวมของอาสาสมัคร ในกรณีที่มีข้อบกพร่อง หรือข้อเสนอแนะ สามารถแจ้งได้ที่

@@ -1,15 +1,21 @@
-name,url,location,topics,deadline,notes
+name,type,url,location,topics,deadline,notes
 "International Max Planck Research School
-for Intelligent Systems",https://imprs.is.mpg.de/application,"Tübingen, Germany","mchine learning, robotics",06/11/2019,
-Cambridge – Tübingen PhD Fellowships in Machine Learning,http://mlg.eng.cam.ac.uk/?page_id=1458,"Cambridge, UK & Tübingen, Germany",machine learning,29/10/2018,
-Hong Kong PhD Fellowship Scheme,https://cerg1.ugc.edu.hk/hkpfs/index.html,Hong Kong,N/A,11/12/2018,สาขาที่เรียนขึ้นอยู่กับมหาลัยและหลักสูตรที่เลือก
-Berlin Math School,https://www.math-berlin.de/application,"Berlin, Germany","mathematics, data science",01/12/2019,
-Max-Delbrück Center for Molecular Medicine,https://www.mdc-berlin.de/research,"Berlin, Germany",computational biology,01/09/2018,
-Helmholtz Einstein International Berlin Research School in Data Science,https://www.heibrids.berlin,"Berlin, Germany",data science,01/09/2018,
-Max Planck School of Cognition,https://www.maxplanckschools.de/de/schools/cognition/programm,Germany,"cognition, artificial intelligence, neuroscience, genetics",01/09/2018,
-Berlin International Graduate School in Model and Simulation based Research,https://www.bimos.tu-berlin.de/menue/bimos_news/,"Berlin, Germany","data science, simulation, optimization",,
-Max Planck ETH Center for Learning Systems,http://learning-systems.org/funding#cls-phd-fellowships,"ETH Zurich, Max Planck Insitute for Intelligent Systems","machine learning, computational biology",01/11/2019,
+for Intelligent Systems",doctoral,https://imprs.is.mpg.de/application,"Tübingen, Germany","mchine learning, robotics",06/11/2019,
+Cambridge – Tübingen PhD Fellowships in Machine Learning,doctoral,http://mlg.eng.cam.ac.uk/?page_id=1458,"Cambridge, UK / Tübingen, Germany",machine learning,29/10/2018,
+Hong Kong PhD Fellowship Scheme,doctoral,https://cerg1.ugc.edu.hk/hkpfs/index.html,Hong Kong,N/A,11/12/2018,สาขาที่เรียนขึ้นอยู่กับมหาลัยและหลักสูตรที่เลือก
+Berlin Math School,doctoral,https://www.math-berlin.de/application,"Berlin, Germany","mathematics, data science",01/12/2019,
+Max-Delbrück Center for Molecular Medicine,doctoral,https://www.mdc-berlin.de/research,"Berlin, Germany",computational biology,01/09/2018,
+Helmholtz Einstein International Berlin Research School in Data Science,doctoral,https://www.heibrids.berlin,"Berlin, Germany",data science,01/09/2018,
+Max Planck School of Cognition,doctoral,https://www.maxplanckschools.de/de/schools/cognition/programm,Germany,"cognition, artificial intelligence, neuroscience, genetics",01/09/2018,
+Berlin International Graduate School in Model and Simulation based Research,doctoral,https://www.bimos.tu-berlin.de/menue/bimos_news/,"Berlin, Germany","data science, simulation, optimization",,
+Max Planck ETH Center for Learning Systems,doctoral,http://learning-systems.org/funding#cls-phd-fellowships,"ETH Zurich, Max Planck Insitute for Intelligent Systems","machine learning, computational biology",01/11/2019,
 "Gatsby Computational Neuroscience Unit
-",http://www.gatsby.ucl.ac.uk/teaching/phd/index.html,UCL,"machine learning, bioinformatics",01/09/2018,
-Swiss Government Excellence Scholarships,https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html#1582163571,Switzerland,N/A,,การสมัครเริ่มจากการหาอาจารย์ที่ปรึกษาและยินยอมรับการเป็นที่ปรึกษา
-Monbukagakusho (MEXT),https://www.th.emb-japan.go.jp/itpr_th/jis_study.html,Japan,N/A,01/05/2019,สาขาที่เรียนขึ้นอยู่กับมหาลัยและหลักสูตรที่เลือก
+",doctoral,http://www.gatsby.ucl.ac.uk/teaching/phd/index.html,UCL,"machine learning, bioinformatics",01/09/2018,
+Swiss Government Excellence Scholarships,doctoral,https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html#1582163571,Switzerland,N/A,,การสมัครเริ่มจากการหาอาจารย์ที่ปรึกษาและยินยอมรับการเป็นที่ปรึกษา
+Monbukagakusho (MEXT),doctoral,https://www.th.emb-japan.go.jp/itpr_th/jis_study.html,Japan,N/A,01/05/2019,สาขาที่เรียนขึ้นอยู่กับมหาลัยและหลักสูตรที่เลือก
+,,,,,,
+Data Science For Social Good,internship,https://dssg.uchicago.edu/,USA/Europe,"data science, machine learning, computational social science, public policy",31/01/2019,ระยะเวลา: 3 เดือน
+Mozilla Fellowships,internship,https://foundation.mozilla.org/en/fellowships/,multiple locations,"open source engineering, open internet, open science, public policy",08/04/2019,ระยะเวลา: 10 เดือน
+Voting Rights Data Institute,internship,http://gerrydata.org/,"Boston, USA","mathematics, computer science",01/02/2019,ระยะเวลา: 6 สัปดาห์
+United Nations Global Pulse,internship,https://www.unglobalpulse.org/participate/vacancies,"Kampala, Uganda / Jakarta, Indonesia","computer science, political science, management, communication",31/12/2019,วันสุดท้ายของการรับสมัครอาจมีการเปลี่ยนแปลง
+Humanitarian AI Internship,internship,https://mila.quebec/en/admission/,"Montreal, Canada","ai, visualization, humanity",15/12/2019,ระยะเวลา: 3-6 เดือน
