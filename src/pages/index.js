@@ -136,7 +136,7 @@ const IndexPage = () => {
     <SEO title="Home" />
     <div style={{marginBottom: "2em"}}>
       <b>ทุนสำหรับ</b>
-      <select defaultValue={type} onChange={(e) => setTypeValue(e.target.value)}>
+      <select value={type} onChange={(e) => setTypeValue(e.target.value)}>
         {
           config.types.map(t => {
             return <option key={t.value} value={t.value}>{t.name}</option>
