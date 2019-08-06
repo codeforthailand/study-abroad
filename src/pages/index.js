@@ -120,7 +120,7 @@ const IndexPage = () => {
   return <Layout>
     <SEO title="Home" />
     <div style={{marginBottom: "2em"}}>
-      <b>ทุนในระดับ</b>
+      <b>ทุนสำหรับ</b>
       <select defaultValue={type} onChange={(e) => setTypeValue(e.target.value)}>
         {
           config.types.map(t => {
