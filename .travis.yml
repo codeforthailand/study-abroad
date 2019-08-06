@@ -17,6 +17,6 @@ before_script:
   - "npm i"
 script:
   - "npm run test"
-  - "npm run build"
+  - "npm run build --prefix-paths"
 after_success:
   - "npm run deploy"
