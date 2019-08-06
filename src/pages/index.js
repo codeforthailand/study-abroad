@@ -15,6 +15,14 @@ const headerStyle = {
   borderBottom: "1px solid"
 }
 
+const getQueryFromLocation = () => {
+  if(typeof(window) === "undefined"){
+    return "mockQueryParam"
+  } else{
+    return window.location.search
+  }
+}
+
 const ScholarshipRow = ({data}) => {
   return <div style={{marginTop: "1.5em", marginBottom: "2em"}}>
     <h4 style={{padding: 0, margin: 0}}>
@@ -56,7 +64,12 @@ const ScholarshipRow = ({data}) => {
 }
 
 const IndexPage = () => {
-  const [queryType, setQueryType] = useQueryParam("type", StringParam);
+  const [queryType, setQueryType] = useQueryParam(
+    "type",
+    StringParam,
+    getQueryFromLocation()
+  )
+
   const [type, setType] = useState(queryType)
 
   const setTypeValue = (v) => {
