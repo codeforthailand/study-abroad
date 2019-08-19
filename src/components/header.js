@@ -2,6 +2,8 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import GitHubButton from 'react-github-btn'
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
@@ -25,6 +27,13 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
+        {`  `}
+        <GitHubButton
+          href="https://github.com/codeforthailand/study-abroad"
+          data-icon="octicon-star"
+          aria-label="Star codeforthailand/study-abroad on GitHub">
+            Star
+        </GitHubButton>
       </div>
     </h3>
   </header>
