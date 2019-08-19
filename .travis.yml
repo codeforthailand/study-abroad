@@ -15,6 +15,7 @@ deploy:
 before_script:
   - "npm i -g gatsby"
   - "npm i"
+  - ./scripts/sync.sh
 script:
   - "npm run test"
   - "npm run build --prefix-paths"
