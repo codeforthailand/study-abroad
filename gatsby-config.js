@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: "/study-abroad",
   siteMetadata: {
-    title: `รายชื่อทุนการศึกษาทางด้านคอมพิวเตอร์และสาขาที่เกี่ยวข้อง`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `ทุนการศึกษาทางด้านคอมพิวเตอร์และสาขาที่เกี่ยวข้อง`,
+    description: `ปัจจุบันมีทุนในระดับปริญญาเอกและโปรแกรมฝึกงานต่างๆ ในต่างประเทศ`,
+    author: `Code For Thailand`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
