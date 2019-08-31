@@ -7,6 +7,10 @@ const config = {
         {
             name: "ฝึกงาน",
             value: "internship"
+        },
+        {
+            name: "ทุนหรือการฝึกงานสำหรับผู้หญิง (Women in Tech)",
+            value: "women-in-tech"
         }
     ]
 }
