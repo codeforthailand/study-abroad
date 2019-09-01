@@ -24,8 +24,10 @@ const getQueryFromLocation = () => {
 }
 
 const ScholarshipRow = ({data}) => {
+  const topics = data.topics.trim().split(",").filter(x => x)
+
   return <div style={{marginTop: "1.5em", marginBottom: "2em"}}>
-    <h4 style={{padding: 0, margin: 0}}>
+    <h4 style={{padding: 0, margin: "5px 0"}}>
       <a style={{color: "black"}} href={data.url}>
         {data.name}
       </a>
@@ -38,25 +40,26 @@ const ScholarshipRow = ({data}) => {
         <b>สถานที่เรียน:</b> {data.location}
       </span>
     </div>
-    <div>
-        <b>สาขาที่ครอบคลุม:</b> {` `}
-      {
-        data.topics
-          .split(",")
-          .map(t => { 
-            const tag = t.trim()
-            return <span style={{
-              border: "1px solid",
-              background: "green", 
-              color: "white",
-              padding: "3px 5px",
-              borderRadius: "5px"
-            }} key={tag}>
-              {tag}
-            </span>
-          })
-      }
-    </div>
+    { topics.length > 0 &&
+      <div>
+          <b>สาขาที่ครอบคลุม:</b> {` `}
+        {
+            topics
+              .map(t => { 
+                const tag = t.trim()
+                return <span style={{
+                  border: "1px solid",
+                  background: "green", 
+                  color: "white",
+                  padding: "3px 5px",
+                  borderRadius: "5px"
+                }} key={tag}>
+                  {tag}
+                </span>
+              })
+        }
+      </div>
+    }
     { data.notes &&
       <i>หมายเหตุ: {data.notes}</i>
     }

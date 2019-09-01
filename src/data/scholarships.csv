@@ -1,21 +1,28 @@
 name,type,url,location,topics,deadline,notes
+Max Planck Doctoral Program in Software Systems,doctoral,https://www.mpi-sws.org/graduate-studies/#admission,"Kaiserslautern, Saarbrücken, Germany","algorithms, security, distributed system",30/09/2019,"รับสมัคร 4 ครั้งต่อปี, โดยวันสุดท้ายคือ 31 มี.ค., 30 มิ.ย, 30 ก.ย., และ 31 ธ.ค."
+Cambridge – Tübingen PhD Fellowships in Machine Learning,doctoral,http://mlg.eng.cam.ac.uk/?page_id=1458,"Cambridge, UK / Tübingen, Germany",machine learning,29/10/2018,
+Maryland Max Planck Ph.D. Program,doctoral,https://www.cs.umd.edu/maryland-max-planck/admissions,"Maryland, USA / Max Planck Institute, Germany ",N/A,14/12/2018,1) สาขาที่เรียนขึ้นอยู่กับอาจารย์ที่ปรึกษา; 2)ต้องใช้คะแนน GRE
+"International Max Planck Research School
+ for Biology And Computation ",doctoral,https://www.molgen.mpg.de/IMPRS/application,"Berlin, Germany","bioinformatics, molecular evoluation, sequence analysis",03/01/2020,
 "International Max Planck Research School
 for Intelligent Systems",doctoral,https://imprs.is.mpg.de/application,"Tübingen, Germany","mchine learning, robotics",06/11/2019,
-Cambridge – Tübingen PhD Fellowships in Machine Learning,doctoral,http://mlg.eng.cam.ac.uk/?page_id=1458,"Cambridge, UK / Tübingen, Germany",machine learning,29/10/2018,
-Hong Kong PhD Fellowship Scheme,doctoral,https://cerg1.ugc.edu.hk/hkpfs/index.html,Hong Kong,N/A,11/12/2018,สาขาที่เรียนขึ้นอยู่กับมหาลัยและหลักสูตรที่เลือก
 Berlin Math School,doctoral,https://www.math-berlin.de/application,"Berlin, Germany","mathematics, data science",01/12/2019,
+Max Planck ETH Center for Learning Systems,doctoral,http://learning-systems.org/funding#cls-phd-fellowships,"ETH Zurich, Max Planck Insitute for Intelligent Systems","machine learning, computational biology",01/11/2019,
+CompCancer,doctoral,http://www.comp-cancer.de,"Berlin, Germany","personalised therapies, mathematical modelling",01/06/2019,
+Monbukagakusho (MEXT),doctoral,https://www.th.emb-japan.go.jp/itpr_th/jis_study.html,Japan,N/A,01/05/2019,สาขาที่เรียนขึ้นอยู่กับมหาลัยและหลักสูตรที่เลือก
+Hong Kong PhD Fellowship Scheme,doctoral,https://cerg1.ugc.edu.hk/hkpfs/index.html,Hong Kong,N/A,11/12/2018,สาขาที่เรียนขึ้นอยู่กับมหาลัยและหลักสูตรที่เลือก
 Max-Delbrück Center for Molecular Medicine,doctoral,https://www.mdc-berlin.de/research,"Berlin, Germany",computational biology,01/09/2018,
 Helmholtz Einstein International Berlin Research School in Data Science,doctoral,https://www.heibrids.berlin,"Berlin, Germany",data science,01/09/2018,
 Max Planck School of Cognition,doctoral,https://www.maxplanckschools.de/de/schools/cognition/programm,Germany,"cognition, artificial intelligence, neuroscience, genetics",01/09/2018,
-Berlin International Graduate School in Model and Simulation based Research,doctoral,https://www.bimos.tu-berlin.de/menue/bimos_news/,"Berlin, Germany","data science, simulation, optimization",,
-Max Planck ETH Center for Learning Systems,doctoral,http://learning-systems.org/funding#cls-phd-fellowships,"ETH Zurich, Max Planck Insitute for Intelligent Systems","machine learning, computational biology",01/11/2019,
 "Gatsby Computational Neuroscience Unit
-",doctoral,http://www.gatsby.ucl.ac.uk/teaching/phd/index.html,UCL,"machine learning, bioinformatics",01/09/2018,
+",doctoral,http://www.gatsby.ucl.ac.uk/teaching/phd/index.html,UCL,"machine learning, computational neuroscience",01/09/2018,
+Berlin International Graduate School in Model and Simulation based Research,doctoral,https://www.bimos.tu-berlin.de/menue/bimos_news/,"Berlin, Germany","data science, simulation, optimization",,
 Swiss Government Excellence Scholarships,doctoral,https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html#1582163571,Switzerland,N/A,,การสมัครเริ่มจากการหาอาจารย์ที่ปรึกษาและยินยอมรับการเป็นที่ปรึกษา
-Monbukagakusho (MEXT),doctoral,https://www.th.emb-japan.go.jp/itpr_th/jis_study.html,Japan,N/A,01/05/2019,สาขาที่เรียนขึ้นอยู่กับมหาลัยและหลักสูตรที่เลือก
-,,,,,,
+United Nations Global Pulse,internship,https://www.unglobalpulse.org/participate/vacancies,"Kampala, Uganda / Jakarta, Indonesia","computer science, political science, management, communication",31/12/2019,วันสุดท้ายของการรับสมัครอาจมีการเปลี่ยนแปลง
 Data Science For Social Good,internship,https://dssg.uchicago.edu/,USA/Europe,"data science, machine learning, computational social science, public policy",31/01/2019,ระยะเวลา: 3 เดือน
+Humanitarian AI Internship,internship,https://mila.quebec/en/admission/,"Montreal, Canada","ai, visualization, humanity",15/12/2019,ระยะเวลา: 3-6 เดือน
 Mozilla Fellowships,internship,https://foundation.mozilla.org/en/fellowships/,multiple locations,"open source engineering, open internet, open science, public policy",08/04/2019,ระยะเวลา: 10 เดือน
 Voting Rights Data Institute,internship,http://gerrydata.org/,"Boston, USA","mathematics, computer science",01/02/2019,ระยะเวลา: 6 สัปดาห์
-United Nations Global Pulse,internship,https://www.unglobalpulse.org/participate/vacancies,"Kampala, Uganda / Jakarta, Indonesia","computer science, political science, management, communication",31/12/2019,วันสุดท้ายของการรับสมัครอาจมีการเปลี่ยนแปลง
-Humanitarian AI Internship,internship,https://mila.quebec/en/admission/,"Montreal, Canada","ai, visualization, humanity",15/12/2019,ระยะเวลา: 3-6 เดือน
+Outreachy Internship,women-in-tech,https://www.outreachy.org,Remote,opensource,24/09/2019,โปรเจ็คอยู่ภายใต้โครงการ Free and Open Source Software (FOSS)
+Palantir's Women in Technology Scholarship,women-in-tech,https://www.palantir.com/students/scholarship/wit-europe/,London,,01/12/2018,"ต้องกำลังศึกษาอยู่ในยุโรป ในสาขา Science, Technology, Engineering or Math (STEM)"
+Hasso Plattner Institute's  European Women in Technology Conference,women-in-tech,https://hpi.de/en/events/wissenschaftliche-konferenzen/2019/european-women-in-technology.html?fbclid=IwAR0T6W0jVwyPKQxeymk0uaDERuqRznF3Oqr13YwtxRX6ub9L3opOlLJkggM,Amsterdam,,27/09/2019,กำลังศึกษาปริญญาตรี หรือโท ในเยอรมนี
