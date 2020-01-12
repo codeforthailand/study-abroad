@@ -19,4 +19,3 @@ before_script:
 script:
   - "npm run test"
   - "npm run build --prefix-paths"
-  
