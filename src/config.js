@@ -1,6 +1,10 @@
 const config = {
     types: [
         {
+            name: "ทุนสนับสนุนผู้หญิง (Women in Tech)",
+            value: "women-in-tech"
+        },
+        {
             name: "หลังปริญญาเอก",
             value:  "postdoc",
         },
@@ -18,15 +22,11 @@ const config = {
         },
         {
             name: "วิจัยระยะสั้น/นักวิจัยเยี่ยมเยือน",
-            value: "fellowship/visiting",
+            value: "fellowship",
         },
         {
             name: "ฝึกงาน",
             value: "internship"
-        },
-        {
-            name: "ทุนสนับสนุนผู้หญิง (Women in Tech)",
-            value: "women-in-tech"
         },
     ]
 }
