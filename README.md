@@ -2,11 +2,10 @@
 [![](https://travis-ci.org/codeforthailand/study-abroad.svg?branch=master)](https://travis-ci.org/codeforthailand/study-abroad)
 
 ## จุดประสงค์
-เพื่อส่งเสริมและพลักดันให้เยาวชนไทย มีโอกาสได้ไปเก็บเกี่ยวประสบการณ์การวิจัยในต่างประเทศ
+เพื่อส่งเสริมและผลักดันให้เยาวชนไทยมีโอกาสเก็บเกี่ยวประสบการณ์การวิจัยในต่างประเทศ
 
 ## ฐานข้อมูล
 https://docs.google.com/spreadsheets/d/1HT9rrr5iVAkfLSzbZlph7n4D64x5RlJjv_GVrW4xp7E/edit?usp=sharing
-
 
 ## Acknowledgements
 - Thank you to [@c4n][can] for providing the list of internships.
