@@ -1,28 +1,28 @@
 const config = {
     types: [
         {
-            name: "ฝึกงาน",
-            value: "internship"
-        },
-        {
-            name: "ปริญญาตรี",
-            value: "undergrad",
-        },
-        {
-            name: "ปริญญาโท",
-            value: "master",
+            name: "หลังปริญญาเอก",
+            value:  "postdoc",
         },
         {
             name: "ปริญญาเอก",
             value: "doctoral"
         },
         {
-            name: "หลังปริญญาเอก",
-            value:  "postdoc",
+            name: "ปริญญาโท",
+            value: "master",
+        },
+        {
+            name: "ปริญญาตรี",
+            value: "undergrad",
         },
         {
             name: "วิจัยระยะสั้น/นักวิจัยเยี่ยมเยือน",
             value: "fellowship/visiting",
+        },
+        {
+            name: "ฝึกงาน",
+            value: "internship"
         },
         {
             name: "ทุนสนับสนุนผู้หญิง (Women in Tech)",
