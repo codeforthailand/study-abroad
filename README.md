@@ -10,11 +10,11 @@
 ## Acknowledgements
 - Thank you to [@c4n][can] for providing the list of internships.
 - The structure of this project is based on [Gatsby][gatsby].
-- The font in the cover image is created by [touchie](touchie)
+- The font in the cover image is [PS LCD 3310][ps-lcd-3310], created by touchie.
 
 [gatsby]: https://www.gatsbyjs.org
 [can]: https://github.com/c4n
-[touchie]: https://www.f0nt.com/release/ps-lcd-3310/ 
+[ps-lcd-3310]: https://www.f0nt.com/release/ps-lcd-3310/ 
 
 ## ฐานข้อมูลทุนและโอกาสฝึกงานอื่นๆ
 - IEEE/Computer Society (กดตรง "Level" จะมี internship และ summer research ให้เลือก) https://jobs.computer.org/jobs
