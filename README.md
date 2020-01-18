@@ -15,5 +15,6 @@
 [can]: https://github.com/c4n
 
 ## ฐานข้อมูลทุนและโอกาสฝึกงานอื่นๆ
-- https://euraxess.ec.europa.eu/jobs/search
-- https://internetfreedomfestival.org/job-board/
+- IEEE/Computer Society (กดตรง "Level" จะมี internship และ summer research ให้เลือก) https://jobs.computer.org/jobs
+- EURAXESS เป็นฐานข้อมูลโครงการวิจัยในสหภาพยุโรป (ค้นทุนด้วยคำว่า studentship, scholarship, fellowship, fellow, phd, doctoral, postdoc ฯลฯ) https://euraxess.ec.europa.eu/jobs/search
+- Internet Freedom Festival Commounty Job Board  จะมีประกาศ fellowship/internship รวมถึงตำแหน่งงานที่เกี่ยวกับการใช้ความรู้สาขาคอมพิวเตอร์กับกับสังคม https://internetfreedomfestival.org/job-board/
