@@ -133,7 +133,7 @@ const IndexPage = () => {
 
   return <Layout>
     <SEO title="Home" />
-    <img src={'cover.jpg'} title="รายชื่อทุนการศึกษาทางด้านคอมพิวเตอร์และสาขาที่เกี่ยวข้อง" alt="รายชื่อทุนการศึกษาทางด้านคอมพิวเตอร์และสาขาที่เกี่ยวข้อง" />
+    <img src={'cover.png'} title="รายชื่อทุนการศึกษาทางด้านคอมพิวเตอร์และสาขาที่เกี่ยวข้อง" alt="รายชื่อทุนการศึกษาทางด้านคอมพิวเตอร์และสาขาที่เกี่ยวข้อง" />
     <div style={{marginBottom: "2em"}}>
       <b>ทุนสำหรับ</b>
       <select value={type} onChange={(e) => setTypeValue(e.target.value)}>
