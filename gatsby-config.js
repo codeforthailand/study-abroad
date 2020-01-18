@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "/study-abroad",
   siteMetadata: {
     title: `ทุนการศึกษาทางด้านคอมพิวเตอร์และสาขาที่เกี่ยวข้อง`,
-    description: `ส่งเสริมและผลักดันให้เยาวชนไทยมีโอกาสเก็บเกี่ยวประสบการณ์การวิจัยค้นคว้าในต่างประเทศ`,
+    description: `ส่งเสริมให้คนไทยมีประสบการณ์การวิจัยค้นคว้าในต่างประเทศ`,
     author: `Code for Thailand`,
     url: `https://codeforthailand.github.io/study-abroad`, // No trailing slash allowed!
     image: `https://codeforthailand.github.io/study-abroad/cover.png`,
