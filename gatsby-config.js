@@ -5,7 +5,7 @@ module.exports = {
     description: `ส่งเสริมและผลักดันให้เยาวชนไทยมีโอกาสเก็บเกี่ยวประสบการณ์การวิจัยค้นคว้าในต่างประเทศ`,
     author: `Code for Thailand`,
     url: `https://codeforthailand.github.io/study-abroad`, // No trailing slash allowed!
-    image: `cover.png`,
+    image: `https://codeforthailand.github.io/study-abroad/cover.png`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
