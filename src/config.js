@@ -1,7 +1,7 @@
 const config = {
     types: [
         {
-            name: "ทุนสนับสนุนผู้หญิง (Women in Tech)",
+            name: "สนับสนุนผู้หญิง (Women in Tech)",
             value: "women-in-tech"
         },
         {
