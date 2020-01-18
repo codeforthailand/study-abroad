@@ -34,7 +34,7 @@ const ScholarshipRow = ({data}) => {
     </h4>
     <div>
       <span>
-        <b>{ data.isAvailable? "ปิดรับสมัคร" : "วันปิดรับสมัครครั้งก่อน" }:</b> {data.deadline}
+        <b>{ data.isAvailable? "ปิดรับสมัคร" : "ปิดรับสมัครครั้งก่อน" }:</b> {data.deadline}
       </span>
       <span style={{marginLeft: "2em"}}>
         <b>สถานที่เรียน:</b> {data.location}
@@ -133,7 +133,7 @@ const IndexPage = () => {
 
   return <Layout>
     <SEO title="Home" />
-    <img src="/study-abroad/images/cover.jpg" title="รายชื่อทุนการศึกษาทางด้านคอมพิวเตอร์และสาขาที่เกี่ยวข้อง" alt="รายชื่อทุนการศึกษาทางด้านคอมพิวเตอร์และสาขาที่เกี่ยวข้อง" />
+    <img src={'/cover.jpg'} title="รายชื่อทุนการศึกษาทางด้านคอมพิวเตอร์และสาขาที่เกี่ยวข้อง" alt="รายชื่อทุนการศึกษาทางด้านคอมพิวเตอร์และสาขาที่เกี่ยวข้อง" />
     <div style={{marginBottom: "2em"}}>
       <b>ทุนสำหรับ</b>
       <select value={type} onChange={(e) => setTypeValue(e.target.value)}>
