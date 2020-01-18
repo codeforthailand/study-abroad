@@ -1,5 +1,3 @@
-![รายชื่อทุนการศึกษาทางด้านคอมพิวเตอร์และสาขาที่เกี่ยวข้อง](https://github.com/codeforthailand/study-abroad/blob/master/cover.jpg)
-
 # รายชื่อทุนการศึกษาทางด้านคอมพิวเตอร์และสาขาที่เกี่ยวข้อง
 [![](https://travis-ci.org/codeforthailand/study-abroad.svg?branch=master)](https://travis-ci.org/codeforthailand/study-abroad)
 
