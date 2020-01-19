@@ -133,19 +133,22 @@ const IndexPage = () => {
 
   return <Layout>
     <SEO title="Home" />
-    <img src={'cover.png'} title="รายชื่อทุนการศึกษาทางด้านคอมพิวเตอร์และสาขาที่เกี่ยวข้อง" alt="รายชื่อทุนการศึกษาทางด้านคอมพิวเตอร์และสาขาที่เกี่ยวข้อง" />
-    <div style={{marginBottom: "2em"}}>
-      <b>ทุนสำหรับ</b>
-      <select value={type} onChange={(e) => setTypeValue(e.target.value)}>
-        {
-          config.types.map(t => {
-            return <option key={t.value} value={t.value}>{t.name}</option>
-          })
-        }
-      </select>
+    <img src={'cover.png'} title="รายชื่อทุนเรียนและฝึกงาน ด้านคอมพิวเตอร์ และสาขาที่เกี่ยวข้อง" alt="รายชื่อทุนเรียนและฝึกงาน ด้านคอมพิวเตอร์ และสาขาที่เกี่ยวข้อง" />
+    <div style={{ marginBottom: "3em" }}>
+      <h2 style={headerStyle}>
+        ทุนสำหรับ
+        <select value={type} onChange={(e) => setTypeValue(e.target.value)}>
+          {
+            config.types.map(t => {
+              return <option key={t.value} value={t.value}>{t.name}</option>
+            })
+          }
+        </select>
+        </h2>
       <br/>
       <i>หมายเหตุ:
-      ข้อมูลด้านล่างเกิดจากการรวบรวมของอาสาสมัคร ในกรณีที่มีข้อบกพร่อง หรือข้อเสนอแนะ สามารถแจ้งได้ที่
+      ข้อมูลทั้งหมดมาจากการรวบรวมของอาสาสมัคร ข้อมูลเช่น วันปิดรับสมัคร อาจมีการเปลี่ยนแปลงได้
+      กรุณาตรวสอบข้อมูลกับเว็บไซต์ต้นทางและสถานศึกษา/วิจัยอีกครั้ง หากพบข้อบกพร่องหรือมีข้อเสนอแนะ กรุณาแจ้งที่
       {` `}<a style={{color: "black"}} href="https://github.com/codeforthailand/study-abroad">Github</a>
       </i>
     </div>
