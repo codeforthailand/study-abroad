@@ -135,16 +135,15 @@ const IndexPage = () => {
     <SEO title="Home" />
     <img src={'cover.png'} title="รายชื่อทุนเรียนและฝึกงาน ด้านคอมพิวเตอร์ และสาขาที่เกี่ยวข้อง" alt="รายชื่อทุนเรียนและฝึกงาน ด้านคอมพิวเตอร์ และสาขาที่เกี่ยวข้อง" />
     <div style={{ marginBottom: "3em" }}>
-      <h2 style={headerStyle}>
-        ทุนสำหรับ
-        <select value={type} onChange={(e) => setTypeValue(e.target.value)}>
-          {
-            config.types.map(t => {
-              return <option key={t.value} value={t.value}>{t.name}</option>
-            })
-          }
-        </select>
-        </h2>
+      <b>ทุนสำหรับ
+      <select value={type} onChange={(e) => setTypeValue(e.target.value)}>
+        {
+          config.types.map(t => {
+            return <option key={t.value} value={t.value}>{t.name}</option>
+          })
+        }
+      </select>
+      </b>
       <br/>
       <i>หมายเหตุ:
       ข้อมูลทั้งหมดมาจากการรวบรวมของอาสาสมัคร ข้อมูลเช่น วันปิดรับสมัคร อาจมีการเปลี่ยนแปลงได้
