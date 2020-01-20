@@ -2,7 +2,7 @@ const config = {
     types: [
         {
             name: "สนับสนุนผู้หญิง (Women in Tech)",
-            value: "women-in-tech"
+            value: "women-in-tech",
         },
         {
             name: "หลังปริญญาเอก",
@@ -10,7 +10,7 @@ const config = {
         },
         {
             name: "ปริญญาเอก",
-            value: "doctoral"
+            value: "doctoral",
         },
         {
             name: "ปริญญาโท",
@@ -26,7 +26,7 @@ const config = {
         },
         {
             name: "ฝึกงาน",
-            value: "internship"
+            value: "internship",
         },
     ]
 }
