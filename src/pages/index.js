@@ -165,6 +165,16 @@ const IndexPage = () => {
         }
       </div>
     </div>
+    <div>
+        <h3>ฐานข้อมูลทุนและโอกาสฝึกงานอื่นๆ</h3>
+        <ul>
+            <li><a href="https://jobs.computer.org/jobs">IEEE/Computer Society</a> (กดตรง "Level" จะมี internship และ summer research ให้เลือก)</li>
+            <li><a href="https://euraxess.ec.europa.eu/jobs/search">EURAXESS</a> ฐานข้อมูลโครงการวิจัยในสหภาพยุโรป (ค้นทุนด้วยคำว่า studentship, scholarship, fellowship, fellow, phd, doctoral, postdoc ฯลฯ)</li>
+            <li><a href="https://www.findaphd.com/">FindPhD</a> ค้นทุนป.เอก ทั่วโลก โดยเฉพาะในสหราชอาณาจักร</li>
+            <li><a href="https://jobs.sciencecareers.org/jobs/">Science Careers</a></li>
+            <li><a href="https://internetfreedomfestival.org/job-board/">Internet Freedom Festival Commounty Job Board</a> จะมีประกาศ fellowship/internship รวมถึงตำแหน่งงานที่เกี่ยวกับการใช้ความรู้สาขาคอมพิวเตอร์กับกับสังคม</li>
+        </ul>
+    </div>
   </Layout>
 }
 
