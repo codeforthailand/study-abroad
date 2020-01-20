@@ -5,7 +5,8 @@
 เพื่อส่งเสริมและผลักดันให้เยาวชนไทยมีโอกาสเก็บเกี่ยวประสบการณ์การวิจัยค้นคว้าในต่างประเทศ
 
 ## ฐานข้อมูล
-ข้อมูลในเว็บไซต์ดึงมาจาก Google Sheets นี้: https://docs.google.com/spreadsheets/d/1HT9rrr5iVAkfLSzbZlph7n4D64x5RlJjv_GVrW4xp7E/edit?usp=sharing
+- ข้อมูลในเว็บไซต์ดึงมาจาก Google Sheets นี้: https://docs.google.com/spreadsheets/d/1HT9rrr5iVAkfLSzbZlph7n4D64x5RlJjv_GVrW4xp7E/edit?usp=sharing
+- ประเภทของทุน ระบุอยู่ในไฟล์ [`src/config.js`](https://github.com/codeforthailand/study-abroad/blob/master/src/config.js) (ตอนใส่ข้อมูลในสเปรดชีต ให้ระวังไม่ให้มี space หรือ newline ด้านหน้าและด้านหลังของคำ)
 
 ## Acknowledgements
 - Thank you to [@c4n][can] for providing the list of internships.
