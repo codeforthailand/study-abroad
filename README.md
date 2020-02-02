@@ -1,6 +1,8 @@
 # รายชื่อทุนการศึกษาทางด้านคอมพิวเตอร์และสาขาที่เกี่ยวข้อง
 [![](https://travis-ci.org/codeforthailand/study-abroad.svg?branch=master)](https://travis-ci.org/codeforthailand/study-abroad)
 
+https://codeforthailand.github.io/study-abroad/
+
 ## จุดประสงค์
 เพื่อส่งเสริมและผลักดันให้เยาวชนไทยมีโอกาสเก็บเกี่ยวประสบการณ์การวิจัยค้นคว้าในต่างประเทศ
 
