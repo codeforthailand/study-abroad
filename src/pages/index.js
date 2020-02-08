@@ -133,7 +133,7 @@ const IndexPage = () => {
 
   return <Layout>
     <SEO title="Home" />
-    <img src={'cover.png'} title="รายชื่อทุนเรียนและฝึกงาน ด้านคอมพิวเตอร์ และสาขาที่เกี่ยวข้อง" alt="รายชื่อทุนเรียนและฝึกงาน ด้านคอมพิวเตอร์ และสาขาที่เกี่ยวข้อง" />
+    <img src={'cover.png'} title="รายชื่อทุนเรียนและฝึกงาน ด้านคอมพิวเตอร์ สารสนเทศ ดิจิทัล และสาขาที่เกี่ยวข้อง" alt="รายชื่อทุนเรียนและฝึกงาน ด้านคอมพิวเตอร์ สารสนเทศ ดิจิทัล และสาขาที่เกี่ยวข้อง" />
     <div style={{ marginBottom: "3em" }}>
       <b>ทุนสำหรับ
       <select value={type} onChange={(e) => setTypeValue(e.target.value)}>
@@ -145,11 +145,15 @@ const IndexPage = () => {
       </select>
       </b>
       <br/>
-      <i>หมายเหตุ:
-      ข้อมูลทั้งหมดมาจากการรวบรวมของอาสาสมัคร ข้อมูลเช่น วันปิดรับสมัคร อาจมีการเปลี่ยนแปลงได้
-      กรุณาตรวสอบข้อมูลกับเว็บไซต์ต้นทางและสถานศึกษา/วิจัยอีกครั้ง หากพบข้อบกพร่องหรือมีข้อเสนอแนะ กรุณาแจ้งที่
-      {` `}<a style={{color: "black"}} href="https://github.com/codeforthailand/study-abroad">Github</a>
-      </i>
+      <br/>
+      <i>หมายเหตุ:</i>
+      <ul>
+        <li>หลักสูตร "คอมพิวเตอร์" ของหลายที่มีลักษณะสหวิทยาการสูง และหลายที่ไม่จำเป็นต้องเรียนมาตรงสาย สายวิทยาศาสตร์อื่นๆ 
+      สายมนุษยศาสตร์ และสายสังคมศาสตร์ก็อาจสมัครได้ ให้ดูรายละเอียด และติดต่อกับทางหลักสูตรหรืออาจารย์ที่คิดว่าน่าจะเป็นที่ปรึกษาได้</li>
+        <li>ข้อมูลทั้งหมดมาจากการรวบรวมของอาสาสมัคร ข้อมูลเช่น วันปิดรับสมัคร อาจเปลี่ยนแปลงได้ กรุณาตรวสอบกับเว็บไซต์ต้นทางและหน่วยงานอีกครั้ง</li>
+        <li>พบข้อบกพร่อง มีข้อเสนอแนะ แจ้งทุนเพิ่มเติม กรุณาแจ้งที่
+        {` `}<a style={{color: "black"}} href="https://github.com/codeforthailand/study-abroad">Github</a></li>
+      </ul>
     </div>
     <div>
       <h3 style={headerStyle}>ทุนที่เปิดรับสมัครในขณะนี้ ({availableScholarships.length} ทุน)</h3>
@@ -158,7 +162,7 @@ const IndexPage = () => {
           availableScholarships.map(r => <ScholarshipRow key={r.name} data={r}/>)
         }
       </div>
-      <h3 style={headerStyle}>ทุนอื่นๆ ({notAvailableScholarships.length} ทุน) </h3>
+      <h3 style={headerStyle}>ทุนอื่นๆ ({notAvailableScholarships.length} ทุน)</h3>
       <div>
         { 
           notAvailableScholarships.map(r => <ScholarshipRow key={r.name} data={r}/>)
