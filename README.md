@@ -25,3 +25,4 @@ https://codeforthailand.github.io/study-abroad/
 - FindPhD ค้นทุนป.เอก โดยเฉพาะในสหราชอาณาจักร https://www.findaphd.com/
 - Science Careers https://jobs.sciencecareers.org/jobs/
 - Internet Freedom Festival Commounty Job Board  จะมีประกาศ fellowship/internship รวมถึงตำแหน่งงานที่เกี่ยวกับการใช้ความรู้สาขาคอมพิวเตอร์กับกับสังคม https://internetfreedomfestival.org/job-board/
+- [How to apply for a PhD in Germany – online course](https://www.research-in-germany.org/en/jobs-and-careers/info-for-phd-students/how-to-obtain-a-phd/phd-course.html) คอร์สออนไลน์ สำหรับผู้สนใจเรียนต่อป.เอกที่เยอรมนี เนื้อหาเกี่ยวกับการหาข้อมูลหลักสูตรป.เอกในประเทศเยอรมนี เงื่อนไขการรับสมัครและการเขียนใบสมัครที่ดี บริบทการทำวิจัยในเยอรมนี และการติดต่ออาจารย์ที่จะขอให้เป็นที่ปรึกษา
