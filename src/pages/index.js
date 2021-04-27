@@ -148,16 +148,16 @@ const IndexPage = () => {
       <br/>
       <details>
         <summary>
-          <i>ข้อมูลเกี่ยวกับประเภทของสาขาวิชาและที่มาของข้อมูล:</i>
+          <i>ข้อมูลเกี่ยวกับประเภทของสาขาวิชาและที่มาของข้อมูล (คลิกที่นี่เพื่อดู):</i>
         </summary>
         <ul>
-          <li>หลักสูตร "คอมพิวเตอร์" ของหลายที่มีลักษณะสหวิทยาการสูงและไม่จำเป็นต้องเรียนมาตรงสาย สายวิทยาศาสตร์อื่นๆ 
+          <li>หลักสูตร "คอมพิวเตอร์" ของหลายที่มีลักษณะสหวิทยาการสูง ผู้สมัครไม่จำเป็นต้องเรียนมาตรงสาย สายวิทยาศาสตร์อื่นๆ 
         สายมนุษยศาสตร์ และสายสังคมศาสตร์ก็อาจสมัครได้ รวมถึงหลักสูตรปริญญาเอกในบางประเทศสามารถใช้วุฒิปริญญาตรีสมัครได้เลย
         ให้ดูรายละเอียดและติดต่อโดยตรงกับทางหลักสูตรหรืออาจารย์ที่คิดว่าน่าจะเป็นที่ปรึกษาได้</li>
           <li>ข้อมูลทั้งหมดมาจากการรวบรวมของอาสาสมัคร ข้อมูลเช่น วันปิดรับสมัคร อาจเปลี่ยนแปลงได้ กรุณาตรวสอบกับเว็บไซต์ต้นทางและหน่วยงานอีกครั้ง</li>
           <li>บางทุนเป็นโครงการต่อเนื่องหลายปี วันปิดรับสมัครอาจเลยมาแล้วจากข้อมูลในนี้ แต่โครงการอาจเปิดจนกว่าจะได้ครบตำแหน่งที่รับหรือเปิดรับรอบใหม่ทุกปี แนะนำให้กดดูที่เว็บไซต์โครงการ ถ้าสนใจ</li>
           <li>พบข้อบกพร่อง มีข้อเสนอแนะ แจ้งทุนเพิ่มเติม กรุณาแจ้งที่
-          {` `}<a style={{color: "black"}} href="https://github.com/codeforthailand/study-abroad">Github</a></li>
+          {` `}<a style={{color: "black"}} href="https://github.com/codeforthailand/study-abroad">GitHub</a></li>
         </ul>
       </details>
     </div>
@@ -182,8 +182,19 @@ const IndexPage = () => {
             <li><a href="https://jobs.computer.org/jobs">IEEE/Computer Society</a> (กดตรง "Level" จะมี internship และ summer research ให้เลือก)</li>
             <li><a href="https://euraxess.ec.europa.eu/jobs/search">EURAXESS</a> ฐานข้อมูลโครงการวิจัยในสหภาพยุโรป (ค้นทุนด้วยคำว่า studentship, scholarship, fellowship, fellow, phd, doctoral, postdoc ฯลฯ)</li>
             <li><a href="https://www.findaphd.com/">FindPhD</a> ค้นทุนป.เอก ทั่วโลก โดยเฉพาะในสหราชอาณาจักร</li>
-            <li><a href="https://jobs.sciencecareers.org/jobs/">Science Careers</a></li>
+            <li><a href="https://jobs.sciencecareers.org/jobs/">Science Careers</a> มีทั้งตำแหน่งงาน ทุนป.เอก หลังปริญญาเอก ฝึกงาน</li>
+            <li>
+                เว็บไซต์รวมแหล่งฝึกงาน: 
+                <a href="https://www.internships.com/computer-science">Chegg Internships</a>
+                | <a href="https://www.gradcracker.com/search/computing-technology/computer-science-work-placements-internships">Gradcracker</a>
+                | <a href="https://www.computersciencedegreehub.com/internships-fortune-500-companies/">Computer Science Degree Hub</a>
+                | <a href="https://www.wayup.com/s/internships/computer-science/">WayUp</a>
+                | <a href="https://www.glassdoor.com/Job/computer-science-intern-jobs-SRCH_KO0,23.htm">Glassdoor</a>
+                | <a href="https://www.indeed.com/q-Computer-Science-Intern-jobs.html">Indeed</a>
+                | <a href="https://www.linkedin.com/jobs/computer-science-intern-jobs/">LinkedIn</a>
+            </li>
             <li><a href="https://internetfreedomfestival.org/job-board/">Internet Freedom Festival Commounty Job Board</a> จะมีประกาศ fellowship/internship รวมถึงตำแหน่งงานที่เกี่ยวกับการใช้ความรู้สาขาคอมพิวเตอร์กับกับสังคม</li>
+
         </ul>
     </div>
   </Layout>
