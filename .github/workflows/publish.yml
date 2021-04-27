@@ -5,6 +5,7 @@ on:
     branches:
       - master
   schedule:
+      # every week
       - cron:  0 0 * * 0
 
 
@@ -17,3 +18,5 @@ jobs:
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
+          deploy-branch: gh-pages
+          gatsby-args: --prefix-paths
