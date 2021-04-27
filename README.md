@@ -1,9 +1,8 @@
 # รายชื่อทุนการศึกษาทางด้านคอมพิวเตอร์และสาขาที่เกี่ยวข้อง
 
-![](https://github.com/codeforthailand/study-aboard/actions/workflows/publish/badge.svg
+![](https://github.com/codeforthailand/study-abroad/actions/workflows/publish.yml/badge.svg
 )
 
-[![](https://travis-ci.org/codeforthailand/study-abroad.svg?branch=master)](https://travis-ci.org/codeforthailand/study-abroad)
 
 https://codeforthailand.github.io/study-abroad/
 
