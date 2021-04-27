@@ -184,8 +184,7 @@ const IndexPage = () => {
             <li><a href="https://www.findaphd.com/">FindPhD</a> ค้นทุนป.เอก ทั่วโลก โดยเฉพาะในสหราชอาณาจักร</li>
             <li><a href="https://jobs.sciencecareers.org/jobs/">Science Careers</a> มีทั้งตำแหน่งงาน ทุนป.เอก หลังปริญญาเอก ฝึกงาน</li>
             <li>
-                เว็บไซต์รวมแหล่งฝึกงาน: 
-                <a href="https://www.internships.com/computer-science">Chegg Internships</a>
+                เว็บไซต์รวมแหล่งฝึกงาน: <a href="https://www.internships.com/computer-science">Chegg Internships</a>
                 | <a href="https://www.gradcracker.com/search/computing-technology/computer-science-work-placements-internships">Gradcracker</a>
                 | <a href="https://www.computersciencedegreehub.com/internships-fortune-500-companies/">Computer Science Degree Hub</a>
                 | <a href="https://www.wayup.com/s/internships/computer-science/">WayUp</a>
@@ -193,7 +192,7 @@ const IndexPage = () => {
                 | <a href="https://www.indeed.com/q-Computer-Science-Intern-jobs.html">Indeed</a>
                 | <a href="https://www.linkedin.com/jobs/computer-science-intern-jobs/">LinkedIn</a>
             </li>
-            <li><a href="https://internetfreedomfestival.org/job-board/">Internet Freedom Festival Commounty Job Board</a> จะมีประกาศ fellowship/internship รวมถึงตำแหน่งงานที่เกี่ยวกับการใช้ความรู้สาขาคอมพิวเตอร์กับกับสังคม</li>
+            <li><a href="https://www.digitalrights.community/job-board">Digital Rights Community Job Board</a> จะมีประกาศ fellowship/internship รวมถึงตำแหน่งงานที่เกี่ยวกับการใช้ความรู้สาขาคอมพิวเตอร์กับกับสังคม</li>
 
         </ul>
     </div>
