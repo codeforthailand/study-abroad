@@ -109,7 +109,7 @@ const IndexPage = () => {
       return {
         ...s.node,
         deadlineMoment: deadline,
-        isAvailable: deadline > today 
+        isAvailable: deadline >= today 
       }
   })
 
