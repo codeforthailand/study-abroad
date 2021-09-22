@@ -183,8 +183,13 @@ const IndexPage = () => {
             <li><a href="https://euraxess.ec.europa.eu/jobs/search">EURAXESS</a> ฐานข้อมูลโครงการวิจัยในสหภาพยุโรป (ค้นทุนด้วยคำว่า studentship, scholarship, fellowship, fellow, phd, doctoral, postdoc ฯลฯ)</li>
             <li><a href="https://www.findaphd.com/">FindPhD</a> ค้นทุนป.เอก ทั่วโลก โดยเฉพาะในสหราชอาณาจักร</li>
             <li><a href="https://jobs.sciencecareers.org/jobs/">Science Careers</a> มีทั้งตำแหน่งงาน ทุนป.เอก หลังปริญญาเอก ฝึกงาน</li>
-            <li>เว็บไซต์รวมทุน รายประเทศ: <a href="https://www.daad.de/en/study-and-research-in-germany/scholarships/">DAAD (เยอรมนี)</a>
+            <li>เว็บไซต์รวมทุน/ตำแหน่งงาน ตามประเทศ/เครือข่ายศูนย์วิจัย: <a href="https://www.daad.de/en/study-and-research-in-germany/scholarships/">DAAD (เยอรมนี)</a>
                 | <a href="https://www.studyinholland.nl/finances">Study in Holland (เนเธอร์แลนด์์)</a></li>
+                | <a href="https://jobs.dfki.de/en/vacancies.html">DFKI (ปัญญาประดิษฐ์)</a>
+                | <a href="https://www.mpg.de/jobboard?subject%5B%5D=it&subject%5B%5D=kf&subject%5B%5D=ma&subject%5B%5D=spw">Max-Planck-Gesellschaft</a>
+                | <a href="https://www.fraunhofer.de/en/jobs-and-career.html">Fraunhofer-Gesellschaft</a>
+                | <a href="https://www.helmholtz.de/en/jobs-talent/job-vacancies/">Helmholtz Association</a>
+                | <a href="https://www.leibniz-gemeinschaft.de/en/careers/jobs">Leibniz Association</a>
             <li>
                 เว็บไซต์รวมแหล่งฝึกงาน: <a href="https://www.internships.com/computer-science">Chegg Internships</a>
                 | <a href="https://www.gradcracker.com/search/computing-technology/computer-science-work-placements-internships">Gradcracker</a>
