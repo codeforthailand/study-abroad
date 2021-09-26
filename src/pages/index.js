@@ -201,8 +201,8 @@ const IndexPage = () => {
             </li>
             <li><a href="https://www.digitalrights.community/job-board">Digital Rights Community Job Board</a> จะมีประกาศ fellowship/internship รวมถึงตำแหน่งงานที่เกี่ยวกับการใช้ความรู้สาขาคอมพิวเตอร์กับกับสังคม</li>
             <li><a href="https://www.summerschoolsineurope.eu/">Summer Schools in Europe.eu</a> รวมหลักสูตรภาคฤดูร้อนทั่วยุโรป - หลายหลักสูตรมีทุน หรืออาจขอทุนหรืองบอบรมจากองค์กรที่ตัวเองสังกัด</li>
-            <li><a href="https://www.research-in-germany.org/en/jobs-and-careers/info-for-phd-students/how-to-obtain-a-phd/phd-course.html">How to apply for a PhD in Germany – online course</a>
-                คอร์สออนไลน์ สำหรับผู้สนใจเรียนต่อป.เอกที่เยอรมนี เนื้อหาเกี่ยวกับการหาข้อมูลหลักสูตรป.เอกในประเทศเยอรมนี เงื่อนไขการรับสมัครและการเขียนใบสมัครที่ดี บริบทการทำวิจัยในเยอรมนี และการติดต่ออาจารย์ที่จะขอให้เป็นที่ปรึกษา</li>
+            <li><a href="https://www.research-in-germany.org/en/jobs-and-careers/info-for-phd-students/how-to-obtain-a-phd/phd-course.html">How to apply for a PhD in Germany – online course</a> คอร์สออนไลน์
+                สำหรับผู้สนใจเรียนต่อป.เอกที่เยอรมนี เนื้อหาเกี่ยวกับการหาข้อมูลหลักสูตรป.เอกในประเทศเยอรมนี เงื่อนไขการรับสมัครและการเขียนใบสมัครที่ดี บริบทการทำวิจัยในเยอรมนี และการติดต่ออาจารย์ที่จะขอให้เป็นที่ปรึกษา</li>
         </ul>
     </div>
   </Layout>
