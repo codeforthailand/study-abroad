@@ -162,13 +162,13 @@ const IndexPage = () => {
       </details>
     </div>
     <div>
-      <h3 style={headerStyle}>ทุนที่เปิดรับสมัครในขณะนี้ ({availableScholarships.length} ทุน)</h3>
+      <h3 style={headerStyle}>ทุนที่ทราบว่าเปิดรับสมัครในขณะนี้ ({availableScholarships.length} ทุน)</h3>
       <div>
         { 
           availableScholarships.map(r => <ScholarshipRow key={r.name} data={r}/>)
         }
       </div>
-      <h3 style={headerStyle}>ทุนอื่นๆ ({notAvailableScholarships.length} ทุน)</h3>
+      <h3 style={headerStyle}>ทุนอื่นๆ ({notAvailableScholarships.length} ทุน) -- บางส่วนอาจยังเปิดรับสมัครอยู่</h3>
       <div>
         { 
           notAvailableScholarships.map(r => <ScholarshipRow key={r.name} data={r}/>)
