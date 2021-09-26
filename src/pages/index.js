@@ -184,7 +184,7 @@ const IndexPage = () => {
             <li><a href="https://www.findaphd.com/">FindPhD</a> ค้นทุนป.เอก ทั่วโลก โดยเฉพาะในสหราชอาณาจักร</li>
             <li><a href="https://jobs.sciencecareers.org/jobs/">Science Careers</a> มีทั้งตำแหน่งงาน ทุนป.เอก หลังปริญญาเอก ฝึกงาน</li>
             <li>เว็บไซต์รวมทุน/ตำแหน่งงาน ตามประเทศ/เครือข่ายศูนย์วิจัย: <a href="https://www.daad.de/en/study-and-research-in-germany/scholarships/">DAAD (เยอรมนี)</a>
-                | <a href="https://www.studyinholland.nl/finances">Study in Holland (เนเธอร์แลนด์์)</a></li>
+                | <a href="https://www.studyinholland.nl/finances">Study in Holland (เนเธอร์แลนด์)</a></li>
                 | <a href="https://jobs.dfki.de/en/vacancies.html">DFKI (ปัญญาประดิษฐ์)</a>
                 | <a href="https://www.mpg.de/jobboard?subject%5B%5D=it&subject%5B%5D=kf&subject%5B%5D=ma&subject%5B%5D=spw">Max-Planck-Gesellschaft</a>
                 | <a href="https://www.fraunhofer.de/en/jobs-and-career.html">Fraunhofer-Gesellschaft</a>
@@ -201,6 +201,8 @@ const IndexPage = () => {
             </li>
             <li><a href="https://www.digitalrights.community/job-board">Digital Rights Community Job Board</a> จะมีประกาศ fellowship/internship รวมถึงตำแหน่งงานที่เกี่ยวกับการใช้ความรู้สาขาคอมพิวเตอร์กับกับสังคม</li>
             <li><a href="https://www.summerschoolsineurope.eu/">Summer Schools in Europe.eu</a> รวมหลักสูตรภาคฤดูร้อนทั่วยุโรป - หลายหลักสูตรมีทุน หรืออาจขอทุนหรืองบอบรมจากองค์กรที่ตัวเองสังกัด</li>
+            <li><a href="https://www.research-in-germany.org/en/jobs-and-careers/info-for-phd-students/how-to-obtain-a-phd/phd-course.html">How to apply for a PhD in Germany – online course</a>
+                คอร์สออนไลน์ สำหรับผู้สนใจเรียนต่อป.เอกที่เยอรมนี เนื้อหาเกี่ยวกับการหาข้อมูลหลักสูตรป.เอกในประเทศเยอรมนี เงื่อนไขการรับสมัครและการเขียนใบสมัครที่ดี บริบทการทำวิจัยในเยอรมนี และการติดต่ออาจารย์ที่จะขอให้เป็นที่ปรึกษา</li>
         </ul>
     </div>
   </Layout>
