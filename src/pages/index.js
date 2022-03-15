@@ -190,6 +190,9 @@ const IndexPage = () => {
                 | <a href="https://www.fraunhofer.de/en/jobs-and-career.html">Fraunhofer-Gesellschaft</a>
                 | <a href="https://www.helmholtz.de/en/jobs-talent/job-vacancies/">Helmholtz Association</a>
                 | <a href="https://www.leibniz-gemeinschaft.de/en/careers/jobs">Leibniz Association</a>
+                | <a href="https://www.turing.ac.uk/work-turing/studentships/centres-doctoral-training-cdts" title="Centres for Doctoral Training">UK Research and Innovation CDT (สหราชอาณาจักร)</a>
+                | <a href="https://www.ukri.org/opportunity/?filter_funding_type%5B%5D=18&filter_status%5B%5D=open&filter_status%5B%5D=upcoming&filter_order=publication_date&filter_submitted=true">UKRI Fellowship</a>
+                | <a href="https://www.sfi.ie/funding/centres-research-training/" title="Centres for Research Training">Science Foundation Ireland CRT (ไอร์แลนด์)</a>
             <li>
                 เว็บไซต์รวมแหล่งฝึกงาน: <a href="https://www.internships.com/computer-science">Chegg Internships</a>
                 | <a href="https://www.gradcracker.com/search/computing-technology/computer-science-work-placements-internships">Gradcracker</a>
