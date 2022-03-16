@@ -183,6 +183,7 @@ const IndexPage = () => {
             <li><a href="https://euraxess.ec.europa.eu/jobs/search">EURAXESS</a> ฐานข้อมูลโครงการวิจัยในสหภาพยุโรป (ค้นทุนด้วยคำว่า studentship, scholarship, fellowship, fellow, phd, doctoral, postdoc ฯลฯ)</li>
             <li><a href="https://www.findaphd.com/">FindPhD</a> ค้นทุนป.เอก ทั่วโลก โดยเฉพาะในสหราชอาณาจักร</li>
             <li><a href="https://jobs.sciencecareers.org/jobs/">Science Careers</a> มีทั้งตำแหน่งงาน ทุนป.เอก หลังปริญญาเอก ฝึกงาน</li>
+            <li><a href="https://www.timeshighereducation.com/unijobs/">THE unijobs</a> ตำแหน่งงานในมหาวิทยาลัย ทุนการศึกษา ทุนวิจัย</li>  
             <li>เว็บไซต์รวมทุน/ตำแหน่งงาน ตามประเทศ/เครือข่ายศูนย์วิจัย: <a href="https://www.daad.de/en/study-and-research-in-germany/scholarships/">DAAD (เยอรมนี)</a>
                 | <a href="https://www.studyinholland.nl/finances">Study in Holland (เนเธอร์แลนด์)</a></li>
                 | <a href="https://jobs.dfki.de/en/vacancies.html">DFKI (ปัญญาประดิษฐ์)</a>
